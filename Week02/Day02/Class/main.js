@@ -104,6 +104,8 @@
 // });
 
 
+
+//          Kvadrat
 const { Ask } = require('asfk');
 
 Ask(["",""]).then(([a,b]) => {
@@ -115,3 +117,65 @@ Ask(["",""]).then(([a,b]) => {
 });
 
 
+
+// const { Ask } = require('asfk');
+
+// Ask(["",""]).then(([a,b]) => {
+//     a = parseInt(a);
+//     b = parseInt(b);
+    
+//     let cem = a + " " + b
+//     console.log(cem);
+// });
+//   2 3
+
+
+// const { Ask } = require('asfk');
+
+// Ask(["","",""]).then(([a,b,c]) => {
+
+//     let cem = a + c + b
+//     console.log(cem);
+// });
+
+// yerdeyisme
+
+// const { Ask } = require('asfk');
+
+// Ask(["",""]).then(([a,b]) => {
+//     a = parseInt(a)
+//     b = parseInt(b)
+//     let cem = a / b
+//     let tamhisse = Math.floor(cem)
+//     console.log(tamhisse);
+// });
+
+
+// Home-
+// const { Ask } = require('asfk');
+
+// Ask(["",""]).then(([a,b]) => {
+ 
+//     let cem = a + a + b + b
+
+//     console.log(cem);
+// });
+
+
+// const { Ask } = require('asfk');
+
+// Ask(["",""]).then(([a,b]) => {
+//     a = parseInt(a)
+//     b = parseInt(b)
+//     let cem = a % b
+
+//     console.log(cem);
+// });
+
+
+// const { Ask } = require('asfk');
+
+// Ask(["","","",""]).then(([a,b,c,d]) => {
+//     let cem = d + c + b + a
+//     console.log(cem);
+// });
