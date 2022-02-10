@@ -39,7 +39,7 @@
 // Ask([""]).then(([a]) => {
 //     a = parseInt(a);
 //     let ilk = parseInt(a  / 100);
-//     let orta = parseInt(a  / 10) % 10 ;
+//     let orta = parseInt(a  / 10 % 10 ) ;
 //     let son = parseInt(a  % 10);
 
 //     let cem = ilk + orta + son
@@ -106,15 +106,15 @@
 
 
 //          Kvadrat
-const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
 
-Ask(["",""]).then(([a,b]) => {
-    a = parseInt(a);
-    b = parseInt(b);
+// Ask(["",""]).then(([a,b]) => {
+//     a = parseInt(a);
+//     b = parseInt(b);
     
-    let cem = a ** 2 + b **2
-    console.log(cem);
-});
+//     let cem = a ** 2 + b **2
+//     console.log(cem);
+// });
 
 
 
