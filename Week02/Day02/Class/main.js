@@ -1,12 +1,12 @@
-// // const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
 
-// // Ask([""]).then(([a]) => {
-// //     a = parseInt(a);
-// //     let ilkReqem = parseInt(a  / 1000);
-// //     let sonReqem = a % 10;
-// //     let cem = ilkReqem + sonReqem;
-// //     console.log(cem);
-// // });
+// Ask([""]).then(([a]) => {
+//     a = parseInt(a);
+//     let ilkReqem = parseInt(a  / 1000);
+//     let sonReqem = a % 10;
+//     let cem = ilkReqem + sonReqem;
+//     console.log(cem);
+// });
 
 
 // const { Ask } = require('asfk');
