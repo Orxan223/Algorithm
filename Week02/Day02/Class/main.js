@@ -69,12 +69,7 @@
 // Ask([""]).then(([a]) => {
 //     a = parseInt(a);
 //     let ilk = parseInt(a  / 10);
- 
-
 //     console.log(ilk);
-
-
-
 // });
 
 
@@ -151,31 +146,3 @@
 // });
 
 
-// Home-
-// const { Ask } = require('asfk');
-
-// Ask(["",""]).then(([a,b]) => {
- 
-//     let cem = a + a + b + b
-
-//     console.log(cem);
-// });
-
-
-// const { Ask } = require('asfk');
-
-// Ask(["",""]).then(([a,b]) => {
-//     a = parseInt(a)
-//     b = parseInt(b)
-//     let cem = a % b
-
-//     console.log(cem);
-// });
-
-
-// const { Ask } = require('asfk');
-
-// Ask(["","","",""]).then(([a,b,c,d]) => {
-//     let cem = d + c + b + a
-//     console.log(cem);
-// });
