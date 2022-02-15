@@ -46,30 +46,28 @@
 
 
 
+const { Ask } = require('asfk');
+Ask([""]).then(([e]) => {
+    let a = parseInt(e / 1000)
+    let b = parseInt(e / 100 % 10)
+    let c = parseInt(e / 10 % 10)
+    let d = parseInt(e / 10)
+    if ((a == c) && (b == d)) {
+        console.log('Yes');
+    } else {
+        console.log('no');
+    }
+});
+
+
 // const { Ask } = require('asfk');
 
-// Ask([""]).then(([e]) => {
-//     let a = parseInt(e/1000)
-//     let b = parseInt(e/100%10)
-//     let c = parseInt(e/10%10)
-//     let d= parseInt(e/10)
-//     if ((a==c)||(b==d)||(b==c)||(a==b)){
+// Ask(["","",""]).then(([r,w,l]) => {
+
+//     if (((2*r)**2)  >= (w**2 + l**2)){
 //         console.log('Yes');
 //     }else{
 //         console.log('no');
 //     }
 
 // });
-
-
-const { Ask } = require('asfk');
-
-Ask(["","",""]).then(([r,w,l]) => {
-
-    if (((2*r)**2)  >= (w**2 + l**2)){
-        console.log('Yes');
-    }else{
-        console.log('no');
-    }
-
-});
