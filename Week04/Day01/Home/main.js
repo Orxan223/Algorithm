@@ -1,18 +1,50 @@
-function Digits(n)
-{
-    let largest = 0;
-    let smallest = 9;
- 
-    while (n) {
-        let r = n % 10;
- 
-        // Find the largest digit
-        largest = Math.max(r, largest);
- 
-        // Find the smallest digit
-        smallest = Math.min(r, smallest);
- 
-        n = parseInt(n / 10);
+let largest = 0;
+
+const { Ask } = require('asfk');
+
+Ask([""]).then(([a]) => {
+    while (a > 9) {
+        a = parseInt(a / 10);
+        if (a > largest) {
+            console.log(a)
+        }
     }
-    document.write(largest + " " + smallest);
 }
+);
+
+
+
+// let tek = 0;
+
+// const { Ask } = require('asfk');
+
+// Ask([""]).then(([a]) => {
+//     while (a > 9) {
+//         a = parseInt(a / 10) ;
+//         if (a % 2 == 1) {
+//             tek++;
+//             console.log(tek);
+//         }
+//     }
+// }
+// );
+
+
+// let tek = 0;
+// let cut = 0;
+
+// const { Ask } = require('asfk');
+
+// Ask([""]).then(([a]) => {
+//     while (a > 9) {
+//         a = parseInt(a / 10);
+//         if (a % 2 == 0) {
+//             cut++;
+//             console.log(cut);
+//         } else if (a % 2 == 1)
+//             tek--;
+//             console.log(tek);
+
+//     }
+// }
+// );
