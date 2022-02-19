@@ -1,4 +1,4 @@
-// let a = 321
+// let a = 321;
 // let cem = 0;
 
 // while(a>0){
@@ -21,15 +21,15 @@
 // });
 
 
-const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
 
-Ask([""]).then(([a]) => {
-    while (a > 9) {
-        a = parseInt(a / 10) ;
-        let son = a % 10
+// Ask([""]).then(([a]) => {
+//     while (a > 9) {
+//         a = parseInt(a / 10) ;
+//         let son = a % 10
         
-    }
-    a = a%10
-    let cem = son + a
-    console.log(cem);
-});
+//     }
+//     a = a%10
+//     let cem = son + a
+//     console.log(cem);
+// });
