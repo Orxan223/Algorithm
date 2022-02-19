@@ -127,8 +127,9 @@
 
 //     }
 
-//     console.log(largest,orta,kicik);
-
+//     console.log(largest);
+//     console.log(orta)
+//     console.log(kicik)
 
 // }
 // );
@@ -138,26 +139,19 @@
 
 
 
-const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
 
-Ask(["",""]).then(([a,b]) => {
-    while (a < b ) {
-        if(a%2==0){
-
-            a++;
-            console.log(a);
-
-
-        }
-
-    }
+// Ask(["",""]).then(([a,b]) => {
+//     while (a <= b ) {     
+//         if(b%2==0){
+//             console.log(b);
+//         }
+//         b--;
+//     }   
+// }
+// );
 
 
-}
-);
-
-
-// Task 8 🎯
 
 // const { Ask } = require('asfk');
 
