@@ -21,15 +21,13 @@
 // });
 
 
-// const { Ask } = require('asfk');
+const { Ask } = require('asfk');
 
-// Ask([""]).then(([a]) => {
-//     while (a > 9) {
-//         a = parseInt(a / 10) ;
-//         let son = a % 10
-        
-//     }
-//     a = a%10
-//     let cem = son + a
-//     console.log(cem);
-// });
+Ask([""]).then(([a]) => {
+    while (a > 0) {
+        a = parseInt(a / 10);
+    }
+    let b = a % 10;
+    console.log(a + b);
+
+});
