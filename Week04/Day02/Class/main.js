@@ -1,28 +1,34 @@
-// let largest = 0;
-// let tekrar = 1;
-// const { Ask } = require('asfk');
+let tekrar = 1;
+let ed = ''
+const { Ask } = require('asfk');
 
-// Ask([""]).then(([a]) => {
-//     while (a > 0) {
-//         let eded = a % 10;
-//         if (largest < eded) {
-//             largest = eded;
+Ask([""]).then(([a]) => {
+    while (a > 0) {
+        let eded = a % 10;
 
-//         } else if (eded == largest) {
-//             tekrar = tekrar + 1;
-//         }
+        ed += eded
+        while(a>0){
+            let ed = a % 10;
+            a = parseInt(a / 10);
 
-//         a = parseInt(a / 10);
-//     }
-//     if (tekrar < 2) {
-//         console.log('No');
-//     }else{
-//         console.log('Yes');
-//     }
-// }
-// );
+        }
+        if (ed === eded) {
+            tekrar = tekrar + 1;
 
-// let i = 0 
+        }
+        a = parseInt(a / 10);
+
+    }
+
+    if (tekrar < 2) {
+        console.log('No');
+    } else {
+        console.log('Yes');
+    }
+}
+);
+
+// let i = 0
 // const { Ask } = require('asfk');
 
 // Ask([""]).then(([a]) => {
@@ -71,9 +77,9 @@
 //     y = 0
 //     let sayi=1
 //     for (let index = 1; index <= a; index++) {
-//         nextNumber = (x * 10**sayi) + y 
-//         netice += 2 * nextNumber 
-//         y = nextNumber 
+//         nextNumber = (x * 10**sayi) + y
+//         netice += 2 * nextNumber
+//         y = nextNumber
 //         sayi++
 //     }
 //     console.log(netice);

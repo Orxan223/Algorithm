@@ -98,6 +98,7 @@
 //             tek = tek * eded;
 
 //         }
+
 //         a = parseInt(a / 10)
 //     }
 //     console.log(tek);
@@ -165,25 +166,22 @@
 
 
 
-// let i = 0;
-// let q = 1;
 // const { Ask } = require('asfk');
 
-// Ask([""]).then(([a]) => {
-//     while (a > 0) {
-//         if (a == i * i * i + q * q * q) {
-            
+// Ask([""]).then(([n]) => {
+//     n = parseInt(n);
 
+//     for(let i = 1; i<n;i++){
+//         let quvvet = Math.pow(i, 3);
+//         if (quvvet < n) {
+//             console.log(quvvet);
 //         }else{
-//             i = i + 1;
-//             q = q + 1;
-//             console.log(i*i*i,q*q*q);
+//             break;
 //         }
-
 //     }
+// });
 
-// }
-// );
+
 
 
 
@@ -191,14 +189,10 @@
 // const { Ask } = require('asfk');
 
 // Ask([""]).then(([a]) => {
-//     while (a > 0) {
-//         if (a>=i) {
-//             console.log(i**2);
-//             i = i + 1;
-            
-
-//         }
-        
+//     while (a >= i) {
+//         console.log(i**2);
+//         i = i + 1;    
 //     }
+    
 // }
 // );

@@ -46,20 +46,20 @@
 
 
 
-const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
 
-Ask([""]).then(([a]) => {
-    let r = parseInt(a/1000)
-    let b = parseInt(a/100%10)
-    let c = parseInt(a/10%10)
-    let d = parseInt(a/10)
-    if ((r==c && b==d)||(r==b && c==d)){
-        console.log("yes");
-    }else{
-        console.log("no");
-    }
-    
-});
+// Ask([""]).then(([a]) => {
+//     let r = parseInt(a / 1000)
+//     let b = parseInt(a / 100 % 10)
+//     let c = parseInt(a / 10 % 10)
+//     let d = parseInt(a % 10)
+//     if ((r == c && b == d) || (r == b && c == d)) {
+//         console.log("yes");
+//     } else {
+//         console.log("no");
+//     }
+
+// });
 
 // const { Ask } = require('asfk');
 

@@ -92,8 +92,8 @@
 
 // Ask([""]).then(([a]) => {
 //     a = parseInt(a);
-//     let ilk =  parseInt(a  / 100);
-//     let son = a  % 10;
+//     let son =  parseInt(a  / 100);
+//     let ilk = a  % 10;
 //     let cem = parseInt(ilk * 10) + son
 //     console.log(cem);
 // });

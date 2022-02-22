@@ -55,7 +55,7 @@
 //     console.log("Summer");
 //   } else if (a > 8 && a <= 11) {
 //     console.log("Autumn ");
-//   } else if (a > 11 && a <= 14) {
+//   } else if (a > 11 || a > 0) {
 //     console.log("Winter");
 //   }
 // });
