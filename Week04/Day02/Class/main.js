@@ -1,32 +1,31 @@
-let tekrar = 1;
-let ed = ''
-const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
+// Ask([""]).then(([n]) => {
+//     let count = 0
+//     let n1 = n
+//     while (n1 > 0) {
+//         x = n1 % 10
+//         n1 = parseInt(n1 / 10)
+//         while (n > 0) {
+//             y = n % 10
+//             n = parseInt(n / 10)
+//             if (x == y) {
+//                 count++
+//             }
+//         }
+//     }
+//     if (count < 2) {
+//         console.log("NO");
+//     }
+//     else
+//         console.log("YES");
+// });
 
-Ask([""]).then(([a]) => {
-    while (a > 0) {
-        let eded = a % 10;
 
-        ed += eded
-        while(a>0){
-            let ed = a % 10;
-            a = parseInt(a / 10);
 
-        }
-        if (ed === eded) {
-            tekrar = tekrar + 1;
 
-        }
-        a = parseInt(a / 10);
 
-    }
 
-    if (tekrar < 2) {
-        console.log('No');
-    } else {
-        console.log('Yes');
-    }
-}
-);
+
 
 // let i = 0
 // const { Ask } = require('asfk');

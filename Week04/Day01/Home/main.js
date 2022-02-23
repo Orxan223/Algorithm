@@ -107,34 +107,13 @@
 // );
 
 
-// let largest = 0;
-// let kicik = 0;
-// let orta = 0;
-
 // const { Ask } = require('asfk');
-
-// Ask([""]).then(([a]) => {
-//     while (a > 0) {
-//         let eded = a % 10;
-//         if (largest < eded) {
-//             largest = eded;
-
-//         } else if (orta < eded) {
-//             orta = eded;
-//         } else if (kicik < eded) {
-//             kicik = eded;
-//         }
-//         a = parseInt(a / 10);
-
+// Ask([""]).then(([n]) => {
+//     while (n > 0) {
+//         console.log(n % 10);
+//         n = parseInt(n / 10)
 //     }
-
-//     console.log(largest);
-//     console.log(orta)
-//     console.log(kicik)
-
-// }
-// );
-
+// });
 
 
 
