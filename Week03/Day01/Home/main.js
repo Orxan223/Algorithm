@@ -79,7 +79,7 @@
 //     let r = parseInt(a/1000)
 //     let b = parseInt(a/100%10)
 //     let c = parseInt(a/10%10)
-//     let d= parseInt(a/10)
+//     let d= parseInt(a%10)
 //     if(r=d && b==c){
 //         console.log("yes");
 

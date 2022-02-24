@@ -133,7 +133,7 @@
 //     console.log(cem);
 // });
 
-// yerdeyisme
+// // yerdeyisme
 
 // const { Ask } = require('asfk');
 

@@ -112,6 +112,7 @@
 //     while (n > 0) {
 //         console.log(n % 10);
 //         n = parseInt(n / 10)
+
 //     }
 // });
 
@@ -136,7 +137,7 @@
 // const { Ask } = require('asfk');
 
 // Ask([""]).then(([a]) => {
-//     for (i = 0; i < a; a--)
+//     for (i = 0; i < a; i++)
 //         console.log("#");
 
 

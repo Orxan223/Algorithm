@@ -27,7 +27,6 @@
 
 
 
-// let i = 0
 // const { Ask } = require('asfk');
 
 // Ask([""]).then(([a]) => {
@@ -100,4 +99,18 @@
 //     }
 //     console.log(netice);
 // });
-
+// const { Ask } = require('asfk');
+// Ask([""]).then(([a]) => {
+//   let n1=0;
+//   let n2=1;
+//   let total='0,1,';
+  
+//   for(let i=2; i<a; i++){
+//     x=n1+n2;
+ 
+//     total = total + x + ','
+//     n1 = n2
+//     n2 = x
+//     }
+//     console.log(total);
+// });

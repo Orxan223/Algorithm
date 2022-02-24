@@ -1,7 +1,7 @@
 // const { Ask } = require('asfk');
 
 // Ask(["",""]).then(([a,b]) => {
-//     let cem = b + a 
+//     let cem = b + a
 //         console.log(cem);
 
 
