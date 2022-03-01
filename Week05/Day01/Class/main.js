@@ -7,7 +7,7 @@
 
 //     let cem = 0
 //     for (let i = 0; i < arr.length; i++) {
-//         cem += arr[i]  
+//         cem += arr[i]
 
 //     }
 //     console.log(cem);
@@ -26,7 +26,7 @@
 //     for (let i = 0; i < arr.length; i++) {
 //         if(larg<arr[i]){
 //             larg=arr[i]
-//         }  
+//         }
 
 //     }
 //     console.log(larg);
@@ -162,17 +162,43 @@
 // Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);
 //     arr = arr.split(" ").map(Number);
-//     let larg = arr[0]
-//     let cem = 0
+//     let larg = 0;
+//     let second = 0;
 //     for (let i = 0; i < arr.length; i++) {
-//         if ((larg < arr[i]) || (arr[i] == larg)) {
-//             larg = arr[i]
-//             if (arr[i] == larg) {
-//                 arr[i].splice(i, 1)
-                
-//             }
+//         if (arr[i] > larg) {
+//             second = larg;
+//             larg = arr[i];
+//         } else if (arr[i] > second) {
+//             second = arr[i];
 //         }
 //     }
-//     cem = cem + arr[i]
-//     console.log(cem);
+//     console.log(larg + second);
+
+// })
+
+
+//----------Task 10--------------
+
+// const { Ask } = require('asfk');
+
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let larg = arr[0]
+//     let sayi = 0
+//     let cem = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         if (larg < arr[i]) {
+//             larg = arr[i]
+
+//         }else if (arr[i]==larg){
+//             sayi = sayi + 1
+
+
+//         }
+//         cem  = cem + arr[i]
+//     }
+//     sayi = sayi * larg
+
+//     console.log(cem - sayi );
 // })

@@ -176,3 +176,23 @@
     
 // }
 // );
+
+
+// const { Ask } = require('asfk');
+
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let larg = 0;
+//     let second = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > larg) {
+//             second = larg;
+//             larg = arr[i];
+//         } else if (arr[i] > second) {
+//             second = arr[i];
+//         }
+//     }
+//     console.log(larg + second);
+
+// })
