@@ -1,3 +1,4 @@
+//Task1
 // const { Ask } = require('asfk');
 
 // Ask(["", ""]).then(([n, arr]) => {
@@ -14,7 +15,7 @@
 // });
 
 
-
+//Task2
 // const { Ask } = require('asfk');
 
 // Ask(["", ""]).then(([n, arr]) => {
@@ -35,6 +36,7 @@
 
 
 
+//Task3
 
 // const { Ask } = require('asfk');
 
@@ -60,7 +62,7 @@
 
 //     let larg = arr[0]
 //     var minvalue = arr[0];
-//     for (let i = 0; i < arr.length; i++) {
+//     for (let i = 0; i < n; i++) {
 //         if(larg<arr[i]){
 //             larg=arr[i]
 //         }else if (arr[i] < minvalue)  {
@@ -77,8 +79,8 @@
 // Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);
 //     arr = arr.split(" ").map(Number);
-//     let a = [arr[arr.length - 1]];
-//     for (let i = 0; i < arr.length - 1; i++) {
+//     let a = [arr[n - 1]];
+//     for (let i = 0; i < n - 1; i++) {
 //       a.push(arr[i]);
 //     }
 
@@ -87,25 +89,26 @@
 // })
 
 
-///-----------------Task 6-------------------
+// /-----------------Task 6-------------------
 // const { Ask } = require('asfk');
 // Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n)
 //     arr = arr.split(" ").map(Number)
 //     let larg = arr[0]
 //     let minvalue = arr[0]
-//     if (arr.length > 1) {
-//         for (let i = 1; i < arr.length; i++) {
+//         for (let i = 0; i < n; i++) {
 //             if (arr[i] > larg) {
 //                 larg = arr[i]
 //             }
 //         }
-//         for (let i = 1; i < arr.length; i++) {
+//         for (let i = 0; i < n; i++) {
 //             if (arr[i] < minvalue) {
 //                 minvalue = arr[i]
 //             }
 //         }
-//     console.log(minvalue, larg);
+
+//     if (n > 1) {
+//         console.log(minvalue, larg);
 //     }
 //     else
 //         console.log("Ooops!");
@@ -123,9 +126,9 @@
 //     arr = arr.split(" ").map(Number);
 //     let arr1 = [];
 
-//     for (let i = 0; i < arr.length; i++) {
-//         if ((arr[i] % 2 != 0) && (arr1.push(arr[i]))) {
-
+//     for (let i = 0; i < n; i++) {
+//         if (arr[i] % 2 != 0) {
+//             arr1.push(arr[i])
 //         }
 
 //     }
@@ -143,7 +146,7 @@
 //     let larg = arr[0]
 //     let sayi = 0
 
-//     for (let i = 0; i < arr.length; i++) {
+//     for (let i = 0; i < n; i++) {
 //         if (larg < arr[i]) {
 //             larg = arr[i]
 
@@ -156,29 +159,7 @@
 // })
 
 
-// --------Task 9 ---------
-// const { Ask } = require('asfk');
-
-// Ask(["", ""]).then(([n, arr]) => {
-//     n = parseInt(n);
-//     arr = arr.split(" ").map(Number);
-//     let larg = 0;
-//     let second = 0;
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] > larg) {
-//             second = larg;
-//             larg = arr[i];
-//         } else if (arr[i] > second) {
-//             second = arr[i];
-//         }
-//     }
-//     console.log(larg + second);
-
-// })
-
-
-//----------Task 10--------------
-
+// ------------Task 9 --------------
 // const { Ask } = require('asfk');
 
 // Ask(["", ""]).then(([n, arr]) => {
@@ -187,7 +168,7 @@
 //     let larg = arr[0]
 //     let sayi = 0
 //     let cem = 0
-//     for (let i = 0; i < arr.length; i++) {
+//     for (let i = 0; i < n; i++) {
 //         if (larg < arr[i]) {
 //             larg = arr[i]
 
@@ -201,4 +182,28 @@
 //     sayi = sayi * larg
 
 //     console.log(cem - sayi );
+// })
+
+
+
+// ---------------Task 10--------------
+
+
+// const { Ask } = require('asfk');
+
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let larg = 0;
+//     let second = 0;
+//     for (let i = 0; i < n; i++) {
+//         if (arr[i] > larg) {
+//             second = larg;
+//             larg = arr[i];
+//         } else if (arr[i] > second) {
+//             second = arr[i];
+//         }
+//     }
+//     console.log(larg + second);
+
 // })
