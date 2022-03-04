@@ -1,4 +1,4 @@
-//Task1
+// Task1
 // const { Ask } = require('asfk');
 
 // Ask(["", ""]).then(([n, arr]) => {
