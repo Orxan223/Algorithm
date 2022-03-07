@@ -2,19 +2,17 @@ const { Ask } = require('asfk');
 Ask(["", ""]).then(([n, arr]) => {
     n = parseInt(n);
     arr = arr.split(" ").map(Number);
-    let eded = {}
-    let sayi = 0
+    let count = 1;
 
-    for (let i = 0; i < n; i++) {
-        sayi++
-        if (arr.includes(eded)) {
-            sayi = sayi - 1
+    for (let i = 1; i < n; i++) {
+        for (j = 0; j < i; j++)
+            if (arr[i] === arr[j])
+                break;
+        if (i === j) {
+            count++;
         }
     }
-
-
-    console.log(sayi);
-
+    console.log(count);
 })
 
 
@@ -183,7 +181,7 @@ Ask(["", ""]).then(([n, arr]) => {
 //     }
 
 //     let x = arr[deleted_index]
-//     arr[deleted_index] = arr[0] 
+//     arr[deleted_index] = arr[0]
 //     arr[0]  = x
 //     console.log(...arr);
 // });
