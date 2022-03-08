@@ -98,17 +98,17 @@
 
 
 // -----------------TASK 4-------------------
-const { Ask } = require('asfk');
-Ask(["", ""]).then(([n, arr]) => {
-    n = parseInt(n);
-    arr = arr.split(" ").map(Number);
-    let arr1 = [];
-    for (var i = 1; i < n - 1; i++) {
-        if (arr[i]  > arr[i -1])
-        arr1.push(arr[i])
-    }
-    console.log(...arr1)
-})
+// const { Ask } = require('asfk');
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let arr1 = [];
+//     for (var i = 1; i < n - 1; i++) {
+//         if (arr[i]  > arr[i -1])
+//         arr1.push(arr[i])
+//     }
+//     console.log(...arr1)
+// })
 
 
 
@@ -140,8 +140,10 @@ Ask(["", ""]).then(([n, arr]) => {
 //     for (let i = 0; i + 1 < arr.length; i += 2) {
 //         [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
 //         arr1.push(arr[i])
+
 //     }
 //     console.log(...arr);
+    
 // })
 
 
@@ -197,7 +199,6 @@ Ask(["", ""]).then(([n, arr]) => {
 //             break
 //         }
 //     }
-
 //     let x = arr[deleted_index]
 //     arr[deleted_index] = arr[0]
 //     arr[0]  = x
