@@ -1,25 +1,49 @@
-// const { Ask } = require('asfk');
-// Ask(["", ""]).then(([n, arr]) => {
-//     n = parseInt(n);
-//     arr = arr.split(" ").map(Number);
-//     let count = 1;
+const { Ask } = require('asfk');
+Ask(["", ""]).then(([n, arr]) => {
+    n = parseInt(n);
+    arr = arr.split(" ").map(Number);
+    let count = 1;
 
-//     for (let i = 1; i < n; i++) {
-//         for (j = 0; j < i; j++)
-//             if (arr[i] === arr[j])
-//                 break;
-//         if (i === j) {
-//             count++;
-//         }
-//         console.log(i);
-//     }
-//     console.log(count);
-// })
+    for (let i = 1; i < n; i++) {
+
+        for (j = 0; j < i; j++){
+            if (arr[i] == arr[j])
+                break;
+        }
+        if (i == j) {
+            count++;
+        }       
+    }
+    console.log(count);
+})
 
 
 
-// arr[i] - 5
-// i - 1,2,3,4
+// arr[i] - 3 5 -7 7 5 -9 -4
+// i - 1,2,3,4,5,6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,28 +152,18 @@
 
 
 
-
-
-
 // --------------------TASK 5 ----------------------
 // const { Ask } = require('asfk');
 // Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);
 //     arr = arr.split(" ").map(Number);
-//     let arr1 = [];
 //     for (let i = 0; i + 1 < arr.length; i += 2) {
 //         [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
-//         arr1.push(arr[i])
 
 //     }
 //     console.log(...arr);
     
 // })
-
-
-
-
-
 
 
 
@@ -204,3 +218,4 @@
 //     arr[0]  = x
 //     console.log(...arr);
 // });
+
