@@ -1,21 +1,21 @@
-const { Ask } = require('asfk');
-Ask(["", ""]).then(([n, arr]) => {
-    n = parseInt(n);
-    arr = arr.split(" ").map(Number);
-    let count = 1;
+// const { Ask } = require('asfk');
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let count = 1;
 
-    for (let i = 1; i < n; i++) {
+//     for (let i = 1; i < n; i++) {
 
-        for (j = 0; j < i; j++){
-            if (arr[i] == arr[j])
-                break;
-        }
-        if (i == j) {
-            count++;
-        }       
-    }
-    console.log(count);
-})
+//         for (j = 0; j < i; j++){
+//             if (arr[i] == arr[j])
+//                 break;
+//         }
+//         if (i == j) {
+//             count++;
+//         }       
+//     }
+//     console.log(count);
+// })
 
 
 
@@ -64,14 +64,15 @@ Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);
 //     arr = arr.split(" ").map(Number);
 //     let larg = arr[0]
-//     let index = arr.indexOf(larg)
+//     let index = 0
 //     for (let i = 0; i < n; i++) {
 //         if (larg < arr[i]) {
 //             larg = arr[i]
+//             index = i
 
 //         }
 //     }
-//     console.log(larg, arr.indexOf(larg) + 1);
+//     console.log(larg, index+1);
 // })
 
 
@@ -97,7 +98,8 @@ Ask(["", ""]).then(([n, arr]) => {
 //     arr = arr.split(" ").map(Number);
 //     let arr1 = [];
 //     for (let i = 0; i < n; i++) {
-//         if ((arr.indexOf(arr[i]) % 2 == 0) && (arr1.push(arr[i]))) {
+//         if (i % 2 == 0) {
+//             arr1.push(arr[i])
 //         }
 //     }
 //     console.log(...arr1);
@@ -127,12 +129,14 @@ Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);
 //     arr = arr.split(" ").map(Number);
 //     let arr1 = [];
-//     for (var i = 1; i < n - 1; i++) {
+//     for (let i = 0; i < n; i++) {
 //         if (arr[i]  > arr[i -1])
 //         arr1.push(arr[i])
 //     }
 //     console.log(...arr1)
 // })
+
+
 
 
 
