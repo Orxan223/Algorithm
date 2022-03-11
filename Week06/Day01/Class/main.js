@@ -68,22 +68,130 @@
 
 
 //         Task 3
+// const { Ask } = require('asfk');
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let arr1 = [];
+//     for (let i = 0; i < n; i++) {
+
+//         for (j = 0; j < n; j++) {
+//             if (arr[i] == arr[j])
+//                 break
+//         }
+//         if (i == j) {
+//             arr1.push(arr[i])
+
+//         }
+
+//     }
+//     console.log(...arr1);
+// })
+//----------------------
+
+
+
+
+
+
+
+
+
+// const { Ask } = require('asfk');
+
+// Ask(["", ""]).then(([n, arr]) => {
+
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let cem = 0
+//     let tekrar = 0
+//     let matrix = [];
+//     for (let i = 0; i < n; i++) {
+//         console.log(arr);
+//         matrix.push(arr.splice(0,n));
+//         if (arr[i] > 0) {
+//             cem += arr[i]
+//         } else if (arr[i] == arr[i]) {
+//             tekrar++
+//         }
+//     };
+
+// console.log(matrix);
+//     console.log(cem+tekrar);
+// });
+
+
+
+
+
+
+
+
+
+
+
+// const { Ask } = require('asfk');
+// Ask([""]).then(([n]) => {
+//     n = parseInt(n)
+//     let arr = []
+//     for (let i = 0; i < n; i++) {
+//         for (let j = 0; j < n; j++) {
+//             if ((i == j) || (i + j == n)) {
+//                 arr.push('*')
+//             } else {
+//                 arr.push(' '); 
+//             }
+
+//         }
+
+//         console.log(...arr);
+
+//     }
+// })
+
+
+
+
+
+
+
+
+
+
+//        TASK 5
+
+// const { Ask } = require('asfk');
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     let main = 0;
+//     let matrix = [];
+//     // let secondary = 0;
+//     for (let i = 0; i < n; i++) {
+//         for (let j = 0; j < n; j++) {
+//             matrix.push(arr.splice(0,n));
+//             if (i == j) {
+//                 main += arr[i][j];
+//             }        
+//         }
+//     } 
+//        console.log(matrix);
+
+// })
+
 const { Ask } = require('asfk');
 Ask(["", ""]).then(([n, arr]) => {
     n = parseInt(n);
     arr = arr.split(" ").map(Number);
-    let arr1 = [];
+    let principal = 0
+    let matrix = []
     for (let i = 0; i < n; i++) {
-
-        for (j = 0; j < i; j++) {
-            if (arr[i] == arr[j])
-                break;
-        }
-        if (i == j) {
-            arr1.push(arr[i])
-
-        }
-
+        for (let j = 0; j < n; j++) {
+            matrix.push(arr.splice(0,n));
+            if (i == j) {
+                principal += arr[i][j];
+            }
+        };
     }
-    console.log(...arr1);
-})
+    console.log(principal);
+});
