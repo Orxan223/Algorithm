@@ -37,29 +37,29 @@
 
 
 //TASK 2
-const { Ask } = require('asfk');
+// const { Ask } = require('asfk');
 
-Ask(["", "", "", ""]).then(([n, arr1, m, arr2]) => {
-    n = parseInt(n);
-    m = parseInt(m);
-    arr1 = arr1.split(" ").map(Number);
-    arr2 = arr2.split(" ").map(Number);
-    let arr3 = [];
-    for (let i = 0; i < arr1.length; i++) {
-        let tekrar = false;
-        for (let j = 0; j < arr2.length; j++) {
-            if (arr1[i] == arr2[j]) {
-                tekrar = true;
-                break;
-            };
-        };
-        if (tekrar == false) {
-            arr3.push(arr1[i]);
-        };
-    };
-    console.log(arr3.length);
-    console.log(...arr3);
-});
+// Ask(["", "", "", ""]).then(([n, arr1, m, arr2]) => {
+//     n = parseInt(n);
+//     m = parseInt(m);
+//     arr1 = arr1.split(" ").map(Number);
+//     arr2 = arr2.split(" ").map(Number);
+//     let arr3 = [];
+//     for (let i = 0; i < arr1.length; i++) {
+//         let tekrar = false;
+//         for (let j = 0; j < arr2.length; j++) {
+//             if (arr1[i] == arr2[j]) {
+//                 tekrar = true;
+//                 break;
+//             };
+//         };
+//         if (tekrar == false) {
+//             arr3.push(arr1[i]);
+//         };
+//     };
+//     console.log(arr3.length);
+//     console.log(...arr3);
+// });
 
 
 
@@ -77,17 +77,19 @@ Ask(["", "", "", ""]).then(([n, arr1, m, arr2]) => {
 //         let x = arr[0]
 //         arr.shift()
 //         while (true) {
-//             if (arr.includes(x)) {
-//                 let deleted = arr.indexOf(x)
-//                 arr.splice(deleted, 1)
-//             }
-//             else
-//                 arr2.push(x)
-//             break
-//         }
-//     }
+    //         if (arr.includes(x)) {
+    //             let deleted = arr.indexOf(x)
+    //             arr.splice(deleted, 1)
+    //         }
+    //         else
+    //             arr2.push(x)
+    //         break
+    //     }
+    // }
 //     console.log(...arr2);
 // });
+
+
 
 
 
@@ -115,7 +117,7 @@ Ask(["", "", "", ""]).then(([n, arr1, m, arr2]) => {
 
 
 
-//task5
+// //task5
 // const { Ask } = require('asfk');
 // Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);
