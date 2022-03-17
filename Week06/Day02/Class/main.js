@@ -74,22 +74,20 @@
 
 
 
-
-
 // const { Ask } = require('asfk');
 // Ask([""]).then(([n]) => {
 //     n = parseInt(n);
-//     let arr = []
-//     let matrix = []
-//     let a = 1
-//     let b = Math.ceil(n ** 2 / 2) + 1
-//     while (a < Math.ceil(n ** 2 / 2) + 1) {
-//         arr.push(a, b)
-//         a++
-//         b++
-//     }
-//     for (let i = 0; i < n; i++) {
-//         matrix.push(arr.splice(0, n))
-//     }
-//     console.log(matrix);
-// });
+    let arr = []
+    let matrix = []
+    let white = 1
+    let black = Math.ceil(n ** 2 / 2) + 1
+    while (white < Math.ceil(n ** 2 / 2) + 1) {
+        arr.push(white, black)
+        white++
+        black++
+    }
+    for (let i = 0; i < n; i++) {
+        matrix.push(arr.splice(0, n))
+    }
+    console.log(matrix);
+});
