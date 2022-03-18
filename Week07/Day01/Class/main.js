@@ -2,31 +2,35 @@
 // console.log(Math.min(...arr));
 
 //Task2
-// const { Ask } = require('asfk');
-// Ask([""]).then(([n]) => {
-//     n = parseInt(n);
-// var l = n.toString().split('');
+// const { Ask } = require("asfk");
+// Ask([""]).then(([s]) => {
+//     let arr = s.split('').map(Number);
+//     console.log(Math.max(arr[0], arr[arr.length - 1]));
+// });
 
-//     console.log(Math.max(...l));
-// })
+
 //Task3
 // const { Ask } = require('asfk');
-// Ask([""]).then(([n]) => {
+// Ask(["",""]).then(([n,arr]) => {
 //     n = parseInt(n);
-//     let arr = n.split(" ");
-
 //     let b = 0
 //     let w = 0
 //     for (let i = 0; i < arr.length; i++) {
-//         if (n == 5) {
+//         if (arr[i] == 5) {
 //             b += 1
 
-//         } else if (n == 2) {
+//         } else if (arr[i] == 2) {
 //             w += 1
 //         }
 //     }
-//     console.log(b);
-//     console.log(w);
+//     if (b>w) {
+//         console.log(5);
+//     }else if(b<w){
+//         console.log(2);
+//     }else{
+//         console.log('=');
+//     }
+
 
 // })
 
@@ -42,6 +46,7 @@
 //     console.log(numOfSentences.length );
 
 // })
+// -----------
 
 
 
@@ -53,19 +58,18 @@
 
 
 
+// //TASK5
+// const { Ask } = require("asfk");
+// Ask([""]).then(([n]) => {
+//     let l = n.split("+-*").map(Number);
+//     console.log(...l);
+// let count = 0
 
-//TASK5
-const { Ask } = require("asfk");
-Ask([""]).then(([n]) => {
-    let l = n.split("").map(Number);
-    console.log(l);
-    let count = 0
-
-    // if (l == removeChar) {
-    //     count++
-    // }
-    // console.log(count);
-})
+// if (l == removeChar) {
+//     count++
+// }
+//     console.log(count);
+// })-------------
 
 
 
@@ -78,7 +82,29 @@ Ask([""]).then(([n]) => {
 // })
 
 
+
 //TASK7
+// const { Ask } = require("asfk");
+// Ask([""]).then(([n]) => {
+//     let arr = n.split(" ");
+// for (let i = 0; i < arr.length; i++) {
+//     arr[0] + 'k'
+// }
+//     console.log(arr);
+
+// });
+//---------
+
+
+
+
+
+
+
+
+
+
+//TASK8
 // const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     let arr = n.split(" ");
@@ -89,4 +115,31 @@ Ask([""]).then(([n]) => {
 //     }
 //     let str2 = arr.join(" ");
 //     console.log(str2);
-///// })//
+// /// })//
+
+
+
+
+
+
+
+
+
+
+//TASK 10
+// const { Ask } = require("asfk");
+// Ask([""]).then(([n]) => {
+//     index = 0,
+//     res = [];
+
+//     while ((index = n.indexOf(' ', index + 1)) > 0) {
+
+//         res.push(index)
+//     }
+//     if (res[0],res[-1]) {
+//         console.log(res[0],res[-1]);
+//     }else{
+//         console.log(-1);
+//     }
+// })
+//---------------
