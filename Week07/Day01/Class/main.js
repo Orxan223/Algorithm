@@ -11,8 +11,7 @@
 
 //Task3
 // const { Ask } = require('asfk');
-// Ask(["",""]).then(([n,arr]) => {
-//     n = parseInt(n);
+// Ask([""]).then(([arr]) => {
 //     let b = 0
 //     let w = 0
 //     for (let i = 0; i < arr.length; i++) {
@@ -35,23 +34,13 @@
 // })
 
 
-
-
-
 //TASK4
-// const { Ask } = require("asfk");
-// Ask([""]).then(([n]) => {
-//     let re = /[.!?]/;
-//     let numOfSentences = n.split(re);
-//     console.log(numOfSentences.length );
 
-// })
-// -----------
-
-
-
-
-
+// const { Ask } = require('asfk');
+// Ask([""]).then(([a]) => {
+//     let b = a.split(".")
+//    console.log(b.length); 
+// });
 
 
 
@@ -59,87 +48,133 @@
 
 
 // //TASK5
-// const { Ask } = require("asfk");
-// Ask([""]).then(([n]) => {
-//     let l = n.split("+-*").map(Number);
-//     console.log(...l);
-// let count = 0
+// const { Ask } = require('asfk');
 
-// if (l == removeChar) {
-//     count++
-// }
-//     console.log(count);
-// })-------------
+// Ask([""]).then(([a]) => {
+//     let c = 0
+//     for (let i = 1; i < a.length; i++) {
+//         if (a[i] == "-" || a[i] == "+" || a[i] == "*") {
+//             c++
+//         }
+
+//     }
+//     console.log(c);
+// });
+
 
 
 
 //TASK6
-// const { Ask } = require("asfk");
+// const { Ask } = require('asfk');
 // Ask([""]).then(([n]) => {
-//     let removeChar = n.replace(/[^A-Za-z]\s+/g, " ");
-//     let newWord = removeChar.trim().split(" ");
-//     console.log(newWord.length);
-// })
-
+//     n = n.split(" ")
+//     let a = []
+//     for (let i = 0; i < n.length; i++) {
+//         if (n[i] != "") {
+//             a.push(n[i])
+//         }
+//     }
+//     console.log(a.length);
+// });
 
 
 //TASK7
-// const { Ask } = require("asfk");
-// Ask([""]).then(([n]) => {
-//     let arr = n.split(" ");
-// for (let i = 0; i < arr.length; i++) {
-//     arr[0] + 'k'
-// }
-//     console.log(arr);
+// const { Ask } = require('asfk');
 
+// Ask([""]).then(([a]) => {
+//     let b = 0
+//     let c = 0
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] == 'k') {
+//             c++
+
+//         }
+//         else {
+//             c = 0
+//         }
+//         if (c > b) {
+//             b = c
+
+//         }
+//     }
+//     console.log(b);
 // });
-//---------
 
 
+//TaSk7 another way
+// const { Ask } = require('asfk');
+// Ask([""]).then(([str]) => {
+//     str = str.split("p")
+//     let max = 0
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i].length > max) {
+//             max = str[i].length
+//         }
+//     }
+//     console.log(max);
+// });
 
 
-
-
-
-
-
-
-//TASK8
+// //TASK8
 // const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     let arr = n.split(" ");
-
 //     for (let i = 0; i < arr.length; i++) {
-//         arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+//         arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);
 
 //     }
-//     let str2 = arr.join(" ");
-//     console.log(str2);
-// /// })//
+//     console.log(...arr);
+// })
+
+
+
+// //TASK9
+// const { Ask } = require("asfk");
+// Ask(["", ""]).then(([arr, n]) => {
+//     let count = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i].toUpperCase() == n.toUpperCase()) {
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// })
 
 
 
 
-
-
-
-
-
-
-//TASK 10
+//TASK 10,11
 // const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     index = 0,
-//     res = [];
-
+//         res = [];
+//     let arr = n.split("");
 //     while ((index = n.indexOf(' ', index + 1)) > 0) {
-
 //         res.push(index)
+
 //     }
-//     if (res[0],res[-1]) {
-//         console.log(res[0],res[-1]);
-//     }else{
+
+//     console.log(res[0], res[res.length - 1]);
+// })
+
+
+
+
+
+//TASK 10 ,11
+// const { Ask } = require('asfk');
+// Ask([""]).then(([str]) => {
+//     const a = str.indexOf(" ")
+//     let b = -1
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] == " ") {
+//             b = i
+//         }
+//     }
+//     if (a == -1) {
 //         console.log(-1);
 //     }
-// })
-//---------------
+//     else {
+//         console.log(a, b);
+//     }
+// });
