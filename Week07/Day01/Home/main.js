@@ -38,8 +38,14 @@
 
 // const { Ask } = require('asfk');
 // Ask([""]).then(([a]) => {
-//     let b = a.split(".")
-//    console.log(b.length); 
+//     a = a.split(" ")
+//     let count = 0
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i][0] == a[i][0].toUpperCase()) {
+//             count++
+//         }
+//     }
+//     console.log(count);
 // });
 
 
@@ -112,7 +118,7 @@
 //         }
 //     }
 //     console.log(max);
-// });
+//. });
 
 
 // //TASK8
