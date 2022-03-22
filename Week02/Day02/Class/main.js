@@ -135,6 +135,8 @@
 
 // // yerdeyisme
 
+
+
 // const { Ask } = require('asfk');
 
 // Ask(["",""]).then(([a,b]) => {
@@ -144,5 +146,3 @@
 //     let tamhisse = Math.floor(cem)
 //     console.log(tamhisse);
 // });
-
-

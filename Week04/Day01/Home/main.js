@@ -1,3 +1,5 @@
+//n natural ədədinin ən böyük rəqəmini tapın.
+
 // let largest = 0;
 
 // const { Ask } = require('asfk');
@@ -7,17 +9,30 @@
 //         let eded = a % 10;
 //         if (largest < eded){
 //             largest = eded;
-
 //         }
-
 //         a = parseInt(a / 10);
-
 //     }
 //     console.log(largest);
 
 // }
 // );
+// Input example 1
+// 2354
+// Output example 1
+// 5
+// Input example 2
+// 609432232423423
+// Output example 2
+// 9
 
+
+
+
+
+
+
+
+// n natural ədədində onun ən böyük rəqəmi neçə dəfə rast gəlir?
 
 // let largest = 0;
 // let tekrar = 1
@@ -43,6 +58,17 @@
 // }
 // );
 
+//Input example 1
+// 2354
+// Output example 1
+// 1
+
+
+
+
+
+
+// n natural ədədinin tək rəqəmlərinin sayını tapın.
 
 
 // let tek = 0;
@@ -62,6 +88,24 @@
 
 // }
 // );
+
+// Input example 1
+// 2354
+// Output example 1
+// 2
+// Input example 2
+// 606432232464677
+// Output example 2
+// 4
+
+
+
+
+
+
+
+
+// Positive integer n is given. Increase by 1 all its even digits and decrease by 1 all its odd digits.
 
 
 // let tek = 0;
@@ -84,14 +128,30 @@
 
 // }
 // );
+// Input example 1
+// 30
+// Output example 1
+// 21
 
 
 
-// let tek = 1;
+
+
+
+
+
+
+
+
+// Natural n ədədinin tək rəqəmlərinin hasilini tapın.
+
+
 
 // const { Ask } = require('asfk');
 
 // Ask([""]).then(([a]) => {
+    // let tek = 1;
+
 //     while (a > 0) {
 //         let eded = a % 10;
 //         if (eded % 2 == 1) {
@@ -105,6 +165,21 @@
 
 // }
 // );
+// Input example 1
+// 327
+// Output example 1
+// 21
+
+
+
+
+
+
+
+
+
+
+// Verilmiş natural n ədədinin bütün rəqəmlərini kiçik mərtəbədən başlayaraq çap edin.
 
 
 // const { Ask } = require('asfk');
@@ -115,11 +190,20 @@
 
 //     }
 // });
+// Input example 1
+// 123
+// Output example 1
+// 3
+
+// 2
+
+// 1
 
 
 
-
-
+// İntervalda Cüt Ədədlər
+// Proqramın girişində aralarında boşluq olmaqla a və b tam ədədləri verilir.
+//  [a, b] intervalına daxil olan bütün cüt ədədləri bir sətirdə azalan sıra ilə çıxışa vermək lazımdır.
 // const { Ask } = require('asfk');
 
 // Ask(["",""]).then(([a,b]) => {
@@ -131,7 +215,20 @@
 //     }   
 // }
 // );
+// Input example 1
+// 2 7
+// Output example 1
+// 6 4 2
 
+
+
+
+
+
+
+
+
+// n natural ədədi verilmişdir. n sayda'#' simvolunu göstərildiyi kimi çap edin.
 
 
 // const { Ask } = require('asfk');
@@ -143,8 +240,17 @@
 
 // }
 // );
+// Input example 1
+// 7
+// Output example 1
+// #######
 
 
+
+
+
+
+// Print in increasing order all perfect cubes of positive integers, less than n.
 
 // const { Ask } = require('asfk');
 
@@ -160,9 +266,14 @@
 //         }
 //     }
 // });
+// Input example 1
+// 9
+// Output example 1
+// 1 8
 
 
 
+// Positive integer n is given. Print in increasing order first n squares of positive integers.
 
 
 // let i = 1;
@@ -176,6 +287,15 @@
     
 // }
 // );
+// Input example 1
+// 3
+// Output example 1
+// 1 4 9
+
+
+
+
+
 
 
 // const { Ask } = require('asfk');
