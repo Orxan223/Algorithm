@@ -1,5 +1,4 @@
 // Task 1
-
 // const { Ask } = require('asfk');
 // Ask(["", ""]).then(([n, arr]) => {
 //     n = parseInt(n);

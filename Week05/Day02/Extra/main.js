@@ -152,18 +152,6 @@ Ask(["", ""]).then(([n, arr]) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // İlk ən kiçiyi
 // n sayda tam ədədlərdən ibarət massiv verilir. Bu massivdə ilk ən kiçik elementi 
 // tapıb birinci elementlə yerlərini dəyişin. Digər elementləri olduğu kimi saxlayın.
