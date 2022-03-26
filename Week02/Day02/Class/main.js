@@ -13,7 +13,7 @@
 
 // Ask([""]).then(([a]) => {
 //     a = parseInt(a);
-//     let ilkReqem = parseInt(a  / 1000);
+// ..    let ilkReqem = parseInt(a  / 1000);
 //     let Son = a % 10;
 //     let cem = ilkReqem + Son;
 //     console.log(cem);
