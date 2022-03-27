@@ -16,7 +16,7 @@
 // Input example
 // 321
 // Output example
-// 6
+//. 6
 
 
 
