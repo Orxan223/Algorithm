@@ -265,19 +265,19 @@
 
 
 //TASK 10 ,11
-const { Ask } = require('asfk');
-Ask([""]).then(([str]) => {
-    const a = str.indexOf(" ")
-    let b = -1//doesnt matter
-    for (let i = 0; i < str.length; i++) {
-        if (str[i] == " ") {
-            b = i
-        }
-    }
-    if (a == -1) {
-        console.log(-1);
-    }
-    else {
-        console.log(a, b);
-    }
-});
+// const { Ask } = require('asfk');
+// Ask([""]).then(([str]) => {
+//     const a = str.indexOf(" ")
+//     let b = -1//doesnt matter
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] == " ") {
+//             b = i
+//         }
+//     }
+//     if (a == -1) {
+//         console.log(-1);
+//     }
+//     else {
+//         console.log(a, b);
+//     }
+// });

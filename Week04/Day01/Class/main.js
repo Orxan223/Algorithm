@@ -1,22 +1,21 @@
 //Ədədin rəqəmlərinin cəmi
 // Tam ədədin rəqəmlərinin cəmini tapın.
-// const { Ask } = require('asfk');
 
+// const { Ask } = require('asfk');
 // Ask([""]).then(([n]) => { 
 //     sum = 0
-
 //     while (n>=1) {
-
 //         let x=n%10
 //         n=parseInt(n/10)
 //         sum+=x
 //     }
 //     console.log(sum);
 // });
+
 // Input example
 // 321
 // Output example
-//. 6
+// 6
 
 
 
@@ -74,19 +73,18 @@
 
 // Rəqəmlər
 // Mənfi olmayan tam n ədədinin rəqəmlərinin sayını hesablayın.
+
 // const { Ask } = require('asfk');
 // Ask([""]).then(([n]) => { 
 //     i = 0
-
 //     while (n>=1) {
-
 //         let x=n%10
 //         n=parseInt(n/10)
 //         i++
 //     }
 //     console.log(i);
-
 // });
+
 // Input example 1
 // 12343
 // Output example 1
@@ -104,23 +102,26 @@
 // n natural ədədi verilmişdir. Həmin ədəddən öz rəqəmlərinin cəmini çıxaq.
 //  Alınan ədəddən də yenə öz rəqəmlərinin cəmini çıxaq və s. Bu prosesi nə qədər ki, 
 // alınan ədəd müsbətdir davam etdirəcəyik. Verilmiş əməliyyatı neçə dəfə icra edəcəyik?
-// const { Ask } = require('asfk');
 
+
+
+// const { Ask } = require('asfk');
 // Ask([""]).then(([n]) => { //21
 //     i = 0
 //     while (n > 0) {
 //         n1 = n;
 //         sum = 0
 //         while (n1 > 0) {
-//             x = n1 % 10
+//             x = n1 % 10 //1
 //             sum += x
-//             n1 = parseInt(n1 / 10)
+//             n1 = parseInt(n1 / 10) //2
 //         }
 //         n -= sum
 //         i++
 //     }
 //     console.log(i);
 // });
+
 // Input example
 // 21
 // Output example
