@@ -14,23 +14,18 @@
 //TASK1
 // The number in reverse order
 // Write a nonnegative integer n in reverse order.
-const { Ask } = require('asfk');
-Ask([""]).then(([num]) => {
-function reverseDigits(num) {
-    let rev_num = 0;
-    while(num > 0){
-        if(num == 0){
-            
-        }else {
-            rev_num = rev_num * 10 + num % 10;
-        num = Math.floor(num / 10);
-        }
-        
-    }
-    return rev_num;
-}
-console.log(reverseDigits(num))
-})
+// const { Ask } = require('asfk');
+// Ask([""]).then(([num]) => {
+// function reverseDigits(num) {
+//     let rev_num = 0;
+//     while(num > 0){
+//         rev_num = rev_num * 10 + num % 10;
+//         num = num / 10;
+//     }
+//     return rev_num;
+// }
+// console.log(reverseDigits(num))
+// })
 // Input example 1
 // 1234
 // Output example 1
@@ -161,13 +156,3 @@ console.log(reverseDigits(num))
 // much
 // Output example 2
 // 1 4 1 4 4 
-
-
-// const { Ask } = require('asfk');
-
-// Ask([""]).then(([a]) => {
-//     let b = a.split(" ")
-    
-
-// console.log(...b.map(b => b.length))
-// });
