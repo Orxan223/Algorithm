@@ -8,40 +8,29 @@
 //     return count
 // }
 
-// console.log(say('Hello world', 'l')); 
-
-// const { Ask } = require('asfk');
-// Ask([""]).then(([a]) => {
-//     function say(a) {
-
-//         for (let i = a.length - 1; i >= 0; i--) {
-//             a[i] + 
-//         }
-//         return eded
-
-//     }
-//     console.log(say(a));
-// })--------------
-
 
 
 
 //TASK1
 // The number in reverse order
 // Write a nonnegative integer n in reverse order.
-// const { Ask } = require('asfk');
-// Ask([""]).then(([num]) => {
-// function reverseDigits(num) {
-//     let rev_num = 0;
-//     while(num > 0)
-//     {
-//         rev_num = rev_num * 10 + num % 10;
-//         num = Math.floor(num / 10);
-//     }
-//     return rev_num;
-// }
-// console.log(reverseDigits(num))
-// })
+const { Ask } = require('asfk');
+Ask([""]).then(([num]) => {
+function reverseDigits(num) {
+    let rev_num = 0;
+    while(num > 0){
+        if(num == 0){
+            
+        }else {
+            rev_num = rev_num * 10 + num % 10;
+        num = Math.floor(num / 10);
+        }
+        
+    }
+    return rev_num;
+}
+console.log(reverseDigits(num))
+})
 // Input example 1
 // 1234
 // Output example 1
@@ -87,15 +76,14 @@
 // const { Ask } = require("asfk");
 // Ask([""]).then(([x]) => {
 //     function eded(x) {
-//         let first = x % 10
-//         let last = 0
 //         for (let i = 0; i < x; i++) {
-//             last = last + x[i] / 10
-
-//             return last
-/./         }
-//         console.log(eded(x));
+//             let n1 = Number(x[0]);
+//             let n2 = Number(x[x.length - 1]);
+//             return n1 + n2
+//         }
 //     }
+//     console.log(eded(x));
+
 // })
 // Input example 1
 // 2345
@@ -105,9 +93,39 @@
 
 
 
+//TASK4
+// Delete a fragment
+// Given a string of Latin letters and spaces. 
+// Delete in it all characters with indices from n to m inclusive. Indexation starts from 0.
+// const { Ask } = require("asfk");
+// Ask(["","",""]).then(([x,y,z]) => {
+// function removeFromString(x,y,z) {
+//     let newStr = '';
+  
+//     for (let i = 0; i < x.length; i++) {
+  
+//       if (i >= y && i <= z) {
+//             continue
+//       }else{
+//         newStr += x[i];
 
-
-
+//       }
+//     }
+//     return newStr;
+//   }
+  
+//   console.log(removeFromString(x,y,z));
+// })
+// Input example 1
+// abrakadabra
+// 3 6
+// Output example 1
+// abrabra
+// Input example 2
+// This is my lovely beautiful house
+// 7 16
+// Output example 2
+// This is beautiful house
 
 
 
@@ -143,3 +161,13 @@
 // much
 // Output example 2
 // 1 4 1 4 4 
+
+
+// const { Ask } = require('asfk');
+
+// Ask([""]).then(([a]) => {
+//     let b = a.split(" ")
+    
+
+// console.log(...b.map(b => b.length))
+// });
