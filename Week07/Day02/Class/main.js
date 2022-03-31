@@ -15,17 +15,16 @@
 // The number in reverse order
 // Write a nonnegative integer n in reverse order.
 // const { Ask } = require('asfk');
-// Ask([""]).then(([num]) => {
-// function reverseDigits(num) {
-//     let rev_num = 0;
-//     while(num > 0){
-//         rev_num = rev_num * 10 + num % 10;
-//         num = num / 10;
+// Ask([""]).then(([a]) => {
+//     function b(str) {
+//         str2 = ""
+//         for (let i = str.length - 1; i >= 0; i--) {
+//             str2 += str[i]
+//         }
+//         return str2
 //     }
-//     return rev_num;
-// }
-// console.log(reverseDigits(num))
-// })
+//     console.log(b(a));
+// });
 // Input example 1
 // 1234
 // Output example 1
@@ -111,16 +110,16 @@
   
 //   console.log(removeFromString(x,y,z));
 // })
-// Input example 1
-// abrakadabra
-// 3 6
-// Output example 1
-// abrabra
-// Input example 2
-// This is my lovely beautiful house
-// 7 16
-// Output example 2
-// This is beautiful house
+// // Input example 1
+// // abrakadabra
+// // 3 6
+// // Output example 1
+// // abrabra
+// // Input example 2
+// // This is my lovely beautiful house
+// // 7 16
+// // Output example 2
+// // This is beautiful house
 
 
 
@@ -130,22 +129,21 @@
 
 
 
-//TASK5
-// Length of words
-// Given text - sequence of words. Find the length of each word.
-// const { Ask } = require("asfk");
-// Ask([""]).then(([n]) => {
-//     function b(n) {
-//       let result = [];
-//       let a = n.split(' ');
-//       for (let i = 0; i < a.length; i++){
-//         result.push(a[i].length);
-//       }
-//       return result;
+// //TASK5
+// // Length of words
+// // Given text - sequence of words. Find the length of each word.
+// const { Ask } = require('asfk');
+// Ask([""]).then(([str]) => {
+//     str = str.split(" ")
+//     function a(b) {
+//         let c = []
+//         for (let i = 0; i < b.length; i++) {
+//             c.push(b[i].length)
+//         }
+//   /      return c
 //     }
-    
-//     console.log(b(n));
-// })
+//     console.log(a(str).join(" "));
+// });
 // Input example 1
 // Programming Principles 1
 // Output example 1
@@ -156,3 +154,7 @@
 // much
 // Output example 2
 // 1 4 1 4 4 
+
+
+
+
