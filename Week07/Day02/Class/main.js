@@ -137,7 +137,7 @@
 //     str = str.split(" ")
 //     function a(b) {
 //         let c = []
-//         for (let i = 0; i < b.length; i++) {
+///         for (let i = 0; i < b.length; i++) {
 //             c.push(b[i].length)
 //         }
 //   /      return c
