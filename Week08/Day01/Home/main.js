@@ -1,5 +1,5 @@
-//in index
-//of ededleri
+// in index
+// of ededleri
 
 
 // // Task 1
@@ -31,24 +31,24 @@
 
 // //TASK 3
 
-const { Ask } = require('asfk');
-Ask([""]).then(([n]) => {
-    n = n.split(" ").map(Number);
-    let user = {}
-    for (let en of n) {
-        if (user[en]) {
-            user[en]++
-        } else {
-            user[en] = 1
-        }
-    }
-    for (let key in user) {
-        if (user[key] === 1) {
-            a = key
-        }
-    }
-    console.log(a);
-});
+// const { Ask } = require('asfk');
+// Ask([""]).then(([n]) => {
+//     n = n.split(" ").map(Number);
+//     let user = {}
+//     for (let en of n) {
+//         if (user[en]) {
+//             user[en]++
+//         } else {
+//             user[en] = 1
+//         }
+//     }
+//     for (let key in user) {
+//         if (user[key] === 1) {
+//             a = key
+//         }
+//     }
+//     console.log(a);
+// });
 
 // //Task 4
 
@@ -72,33 +72,33 @@ Ask([""]).then(([n]) => {
 //    console.log(a);
 // });
 
-// // Task 5
+// Task 5
 
-// const { Ask } = require('asfk');
-// Ask([""]).then(([arr]) => {
-//    arr = arr.split("");
-//    let user = {}
-//    for (let ele of arr){
-//        if (user[ele]) {
-//            user[ele]++
-//        }else{
-//            user[ele]= 1
-//        }
-//    }
-//    for (let key in user){
-//        if (user[key]===1) {
-//         a=key
-//         break;
-//        }else if (user[key]>=2) {
-//            a=false
-//        }
-//    }
-//    for (let i = 0; i < arr.length; i++) {
-//        if (arr[i]==a) {
-//            index = i
-//        }else if (a==false) {
-//            index = -1
-//        }
-//    }
-//    console.log(index);
-// });
+const { Ask } = require('asfk');
+Ask([""]).then(([arr]) => {
+    arr = arr.split("");
+    let user = {}
+    for (let ele of arr) {
+        if (user[ele]) {
+            user[ele]++
+        } else {
+            user[ele] = 1
+        }
+    }
+    for (let key in user) {
+        if (user[key] === 1) {
+            a = key
+            break;
+        } else if (user[key] >= 2) {
+            a = false
+        }
+    }
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == a) {
+            index = i
+        } else if (a == false) {
+            index = -1
+        }
+    }
+    console.log(index);
+});

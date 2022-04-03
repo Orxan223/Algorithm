@@ -1,9 +1,16 @@
+    const { Ask } = require('asfk');
 
-const { Ask } = require('asfk');
+Ask(["", ""]).then(([n, arr]) => {
+    n = parseInt(n);
+    arr = arr.split(" ").map(Number);
+    let arr1 = [];
 
-Ask([""]).then(([a]) => {
-for (let i = 0;  i < a; i--) {
+    let larg = arr[0]
+    for (let i = arr.length - 1; i >= 0; i--) {
+        arr1.push(arr[i])
 
-}
-console.log(a);
+
+    }
+    console.log(...arr1);
+
 })

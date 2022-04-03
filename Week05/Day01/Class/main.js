@@ -96,8 +96,8 @@
 
 // --------------- task 4 ------------------
 // Küləkli hava
-// Pyataçok çəmənlikdə uzanaraq xışıldayan otları seyr edirdi. O başa düşdü ki, otlar 
-// ona görə xışıldayırlar ki, çünkü külək əsir və o otlara görə küləyin gücünü necə ölçmək 
+// Pyataçok çəmənlikdə uzanaraq xışıldayan otları seyr edirdi. O başa düşdü ki, otlar
+// ona görə xışıldayırlar ki, çünkü külək əsir və o otlara görə küləyin gücünü necə ölçmək
 // lazım gəldiyini düşündü. Küləyin gücü,
 //  Pyataçoka görə hazırda ən yüksək və ən alcaq otların hündürlüklərinin fərqi kimi başa düşülür.
 

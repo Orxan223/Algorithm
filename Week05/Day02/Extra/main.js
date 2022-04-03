@@ -131,17 +131,17 @@
 //  (a[0] və a[1],a[2] və a[3] və bu şəkildə davam edin).
 //  Əgər massivdə tək sayda element olarsa, onda sonuncu elementi olduğu kimi saxlayın.
 
-const { Ask } = require('asfk');
-Ask(["", ""]).then(([n, arr]) => {
-    n = parseInt(n);
-    arr = arr.split(" ").map(Number);
-    for (let i = 0; i + 1 < arr.length; i += 2) {
-        [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
+// const { Ask } = require('asfk');
+// Ask(["", ""]).then(([n, arr]) => {
+//     n = parseInt(n);
+//     arr = arr.split(" ").map(Number);
+//     for (let i = 0; i + 1 < arr.length; i += 2) {
+//         [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
 
-    }
-    console.log(...arr);
+//     }
+//     console.log(...arr);
     
-})
+// })
 // Input example
 // 7
 
@@ -169,7 +169,7 @@ Ask(["", ""]).then(([n, arr]) => {
 //         if (arr[i] < min) {
 //             min = arr[i]
 //         }
-//     }
+///     }
 //     for (let index = 0; index < arr.length; index++) {
 //         if (arr[index] == min) {
 //             deleted_index = index
