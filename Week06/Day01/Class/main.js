@@ -32,9 +32,9 @@
 //     n = parseInt(n);
 //     arr = arr.split(" ").map(Number);
 //     let arr1 = []
-///     for (let i = 0; i < arr.length; i++) {  //
+///     for (let i = 0; i < arr.length; i++) {  //0//1...
 //         let hasil = 1;
-//         for (let j = 0; j < arr.length; j++) {
+//         for (let j = 0; j < arr.length; j++) { //0,1,2,3//0,1,2,3// Eyni ededleri firladir
 //             if (i != j) {
 //                 hasil *= arr[j];
 //             }

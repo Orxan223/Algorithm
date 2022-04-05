@@ -132,18 +132,20 @@
 // //TASK5
 // // Length of words
 // // Given text - sequence of words. Find the length of each word.
+
 // const { Ask } = require('asfk');
 // Ask([""]).then(([str]) => {
 //     str = str.split(" ")
 //     function a(b) {
 //         let c = []
-///         for (let i = 0; i < b.length; i++) {
+//          for (let i = 0; i < b.length; i++) {
 //             c.push(b[i].length)
 //         }
-//   /      return c
+//         return c
 //     }
 //     console.log(a(str).join(" "));
 // });
+
 // Input example 1
 // Programming Principles 1
 // Output example 1

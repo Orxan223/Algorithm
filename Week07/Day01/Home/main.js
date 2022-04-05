@@ -240,18 +240,18 @@
 // Boşluqların indeksləri
 // Verilmiş sətirdə birinci və sonuncu boşluq işarəsinin
 //  indekslərini çap edin. Nəzərə alın ki, sətrin ilk simvolunun indeksi 0-dan başlayır.
+
 // const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     index = 0,
-//         res = [];
+//     res = [];
 //     let arr = n.split("");
 //     while ((index = n.indexOf(' ', index + 1)) > 0) {
 //         res.push(index)
-
 //     }
-
 //     console.log(res[0], res[res.length - 1]);
 // })
+
 // Input example 1
 // I am programming on Python.
 // Output example 1
