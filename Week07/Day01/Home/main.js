@@ -187,7 +187,7 @@
 //         }
 //     }
 //     console.log(max);
-//. });
+// });
 
 
 // //TASK8
@@ -195,6 +195,7 @@
 // Mətnlərin emalına aid sadə məsələlərdən biri sətirdəki hər bir sözün birinci 
 // hərfini baş hərfə çevirməkdir. Bir və ya bir neçə boşluqla ayrılmış kiçik hərflərdən ibarət sətir 
 // verilmişdir. Eyni sətri, hər sözün birinci hərfini baş hərfə çevirərək çap edin.
+
 // const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     let arr = n.split(" ");
@@ -204,6 +205,7 @@
 //     }
 //     console.log(...arr);
 // })
+
 // Input example 1
 // introduction to algorithms
 // Output example 1
