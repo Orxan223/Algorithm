@@ -1,11 +1,11 @@
-// let arr = [30,15,45]
+// let arr = [30, 15, 45]
 // console.log(Math.min(...arr));
 
-//Task2
-// Birinci, yoxsa axırıncı?
-// Üçrəqəmli ədəd verilmişdir. Onun rəqəmlərindən hansının - birincinin, 
-// yoxsa axırıncının böyük olduğunu müəyyənləşdirin.
-// const { Ask } = require("asfk");
+// Task2
+// Birinci, yoxsa axırıncı ?
+//     Üçrəqəmli ədəd verilmişdir.Onun rəqəmlərindən hansının - birincinin,
+//         yoxsa axırıncının böyük olduğunu müəyyənləşdirin.
+//             const { Ask } = require("asfk");
 // Ask([""]).then(([s]) => {
 //     let arr = s.split('').map(Number);
 //     console.log(Math.max(arr[0], arr[arr.length - 1]));
@@ -23,10 +23,10 @@
 
 
 
-//Task3
+// Task3
 // Qiymətlər
-// Pənah məktəbdə yalnız iki və beş qiymətlər alır. Hansı qiymətin daha çox olduğunu təyin edin.
-// const { Ask } = require('asfk');
+// Pənah məktəbdə yalnız iki və beş qiymətlər alır.Hansı qiymətin daha çox olduğunu təyin edin.
+//     const { Ask } = require('asfk');
 // Ask([""]).then(([arr]) => {
 //     let b = 0
 //     let w = 0
@@ -38,35 +38,35 @@
 //             w += 1
 //         }
 //     }
-//     if (b>w) {
+//     if (b > w) {
 //         console.log(5);
-//     }else if(b<w){
+//     } else if (b < w) {
 //         console.log(2);
-//     }else{
+//     } else {
 //         console.log('=');
 //     }
 
 // Input example 1
-// 255222
+//     255222
 // Output example 1
-// 2
+//     2
 // Input example 2
-// 555522
+//     555522
 // Output example 2
-// 5
+//     5
 // Input example 3
-// 525522
+//     525522
 // Output example 3
-// =
+//         =
 // })
-// 
 
 
 
-//TASK4
+
+// TASK4
 // Cümlələrin sayı
 // Verilmiş mətn fraqmentində cümlələrin sayını müəyyənləşdirin.
-// const { Ask } = require('asfk');
+//     const { Ask } = require('asfk');
 // Ask([""]).then(([a]) => {
 //     a = a.split(" ")
 //     let count = 0
@@ -92,8 +92,8 @@
 
 // //TASK5
 // Əməllərin sayı
-// Verilmiş hesabi ifadədə toplama (+), çıxma (-) və vurma (*) əməllərinin ümumi sayını müəyyənləşdirin.
-// const { Ask } = require('asfk');
+// Verilmiş hesabi ifadədə toplama(+), çıxma(-) və vurma(*) əməllərinin ümumi sayını müəyyənləşdirin.
+//     const { Ask } = require('asfk');
 
 // Ask([""]).then(([a]) => {
 //     let c = 0
@@ -106,20 +106,20 @@
 //     console.log(c);
 // });
 // Input example 1
-// -1+2*3+a
+//     - 1 + 2 * 3 + a
 // Output example 1
 // 3
 // Input example 2
-// +5-2+4-m/n*2:4
+//     + 5 - 2 + 4 - m / n * 2: 4
 // Output example 2
 // 4
 
 
 
-//TASK6
+// TASK6
 // Sözlərin sayı
 // Verilmiş mətn fraqmentində sözlərin sayını müəyyənləşdirin.
-// const { Ask } = require('asfk');
+//     const { Ask } = require('asfk');
 // Ask([""]).then(([n]) => {
 //     n = n.split(" ")
 //     let a = []
@@ -135,7 +135,7 @@
 // Output example 1
 // 2
 // Input example 2
-//  Hello world! Hello,    country!
+//  Hello world! Hello, country!
 // Output example 2
 // 4
 
@@ -143,13 +143,13 @@
 
 
 
-//TASK7
+// TASK7
 // Sleeping cars
 // A train contains sleeping cars, marked with letter k, and sitting cars, marked with letter p. 
 // Find the biggest number of sleeping cars that follow each other in the train.
 
 
-// const { Ask } = require('asfk');
+//     const { Ask } = require('asfk');
 // Ask([""]).then(([a]) => {
 //     let b = 0
 //     let c = 0
@@ -175,7 +175,7 @@
 
 
 
-//TaSk7 another way
+// TaSk7 another way
 
 // const { Ask } = require('asfk');
 // Ask([""]).then(([str]) => {
@@ -193,10 +193,10 @@
 // //TASK8
 // Baş hərfli sözlər sətri
 // Mətnlərin emalına aid sadə məsələlərdən biri sətirdəki hər bir sözün birinci 
-// hərfini baş hərfə çevirməkdir. Bir və ya bir neçə boşluqla ayrılmış kiçik hərflərdən ibarət sətir 
-// verilmişdir. Eyni sətri, hər sözün birinci hərfini baş hərfə çevirərək çap edin.
+// hərfini baş hərfə çevirməkdir.Bir və ya bir neçə boşluqla ayrılmış kiçik hərflərdən ibarət sətir
+// verilmişdir.Eyni sətri, hər sözün birinci hərfini baş hərfə çevirərək çap edin.
 
-// const { Ask } = require("asfk");
+//     const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     let arr = n.split(" ");
 //     for (let i = 0; i < arr.length; i++) {
@@ -214,7 +214,7 @@
 
 // //TASK9
 // Hərfləri saymalı
-// s sətri və c hərfi verilmişdir. Bu hərfə sətirdə neçə dəfə rast gəlinir?
+// s sətri və c hərfi verilmişdir.Bu hərfə sətirdə neçə dəfə rast gəlinir ?
 // const { Ask } = require("asfk");
 // Ask(["", ""]).then(([arr, n]) => {
 //     let count = 0;
@@ -238,15 +238,15 @@
 
 
 
-//TASK 10,11
+// TASK 10, 11
 // Boşluqların indeksləri
 // Verilmiş sətirdə birinci və sonuncu boşluq işarəsinin
-//  indekslərini çap edin. Nəzərə alın ki, sətrin ilk simvolunun indeksi 0-dan başlayır.
+//  indekslərini çap edin.Nəzərə alın ki, sətrin ilk simvolunun indeksi 0 - dan başlayır.
 
-// const { Ask } = require("asfk");
+//     const { Ask } = require("asfk");
 // Ask([""]).then(([n]) => {
 //     index = 0,
-//     res = [];
+//         res = [];
 //     let arr = n.split("");
 //     while ((index = n.indexOf(' ', index + 1)) > 0) {
 //         res.push(index)
@@ -261,12 +261,12 @@
 // Input example 2
 // abrakadabra
 // Output example 2
-// -1
+//     - 1
 
 
 
 
-//TASK 10 ,11
+// TASK 10, 11  //Another way
 // const { Ask } = require('asfk');
 // Ask([""]).then(([str]) => {
 //     const a = str.indexOf(" ")
@@ -283,3 +283,5 @@
 //         console.log(a, b);
 //     }
 // });
+
+
