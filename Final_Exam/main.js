@@ -112,7 +112,7 @@
 
 // const { Ask } = require('asfk');
 // Ask(["", ""]).then(([n, string]) => {
-//     n = parseInt(n)
+///     n = parseInt(n)
 //     string = string.split(" ")
 //     let list = []
 //     for (let i = 0; i < n; i++) {
