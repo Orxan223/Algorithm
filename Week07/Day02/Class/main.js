@@ -132,7 +132,7 @@
 // //TASK5
 // // Length of words
 // // Given text - sequence of words. Find the length of each word.
-
+//
 // const { Ask } = require('asfk');
 // Ask([""]).then(([str]) => {
 //     str = str.split(" ")
