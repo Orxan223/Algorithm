@@ -83,7 +83,7 @@
 // const { Ask } = require('asfk');
 // Ask([""]).then(([str]) => {
 //     str = str.split("")
-
+////
 //     let count = 0
 //     let c = str.length -1
 //     let i = 0
