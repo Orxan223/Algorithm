@@ -79,7 +79,7 @@
 //  simmetriya dərəcəsi adlandıracağıq. Əgər ədəddə hər hansı 
 //  rəqəm onluq yazılışda ortada yerləşirsə, onu da özü ilə bir
 //   cütlük kimi saymaq lazımdır. n ədədinin simmetriya dərəcəsini tapın.
-//
+////
 // const { Ask } = require('asfk');
 // Ask([""]).then(([str]) => {
 //     str = str.split("")
